@@ -1,0 +1,105 @@
+body{
+  
+   
+   
+
+    background-image: url("img.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    background-position: center; 
+
+    background-repeat: repeat; 
+    height: 100vh; 
+
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+li{
+    color :white;
+}
+h1{
+    color: white;
+}
+h2{
+    color:white;
+}
+.dex{
+    color: white;
+}
+
+input, button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #0f0e0e;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.mt-2 {
+    margin-top: 10px;
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    animation: fadeInLeft 1s ease-in-out;
+    border-radius: 5px;
+
+}
+
+pricing-plan h2 {
+    color:white;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: white
+    ;
+
+}
+li{
+    
+    color: #f0f0f0;
+    margin-bottom: 10px;
+
+}
+
+a {
+    text-decoration: none;
+
+}

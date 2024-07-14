@@ -1,0 +1,41 @@
+body{
+  
+   
+   
+
+  background-image: url("img.jpg");
+  margin: 0;
+  padding: 0;
+  background-size: cover; 
+  background-position: center; 
+
+  background-repeat: repeat; 
+  height: 100vh; 
+
+}
+
+header { 
+
+.div.test {
+  margin: 5%;
+  border: 5px solid #ccc;
+  float: right;
+  width: 100px;
+}
+
+.div.test  {
+  border: 1px solid #777;
+}
+
+.div.test {
+  width: 100px;
+  height: 400;
+}
+
+
+ul {
+    display: inline-flex;
+    gap: 100px;
+    list-style-type: decimalS;
+
+}

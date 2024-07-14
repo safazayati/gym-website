@@ -1,0 +1,90 @@
+
+body{
+  
+   
+   
+
+    background-image: url("img.jpg");
+    margin: 0;
+    padding: 0;
+    background-size: cover; 
+    background-position: center; 
+
+    background-repeat: repeat; 
+    height: 100vh; 
+
+}
+header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 8px;
+    animation: fadeInLeft 1s ease-in-out;
+    border-radius: 5px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+
+}
+li{
+    color :white;
+}
+a {
+    text-decoration: none;
+
+}
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form .row {
+    display: flex;
+    flex-direction: column;
+    margin: -10px;
+}
+
+.contact-form .col-md-6 {
+    width: 100%; /* Adjusted to full width on small screens */
+    padding: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: #d9bcd7;
+    color: #651659;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #b30098;
+}  
+h1{
+    color:white;
+} 
+h2{
+    color: white;
+}

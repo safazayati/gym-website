@@ -1,0 +1,92 @@
+@keyframes fadeInTableRow {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body{
+  
+   
+   
+
+        background-image: url("img.jpg");
+        margin: 0;
+        padding: 0;
+        background-size: cover; 
+        background-position: center; 
+
+        background-repeat: repeat; 
+        height: 100vh; 
+  
+}
+li{
+    color :white;
+}
+header {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+tr {
+    opacity: 0;
+    animation: fadeInTableRow 0.5s ease-in-out forwards;
+    background-color: #f2f2f2;
+
+}
+
+
+
+
+.oop {
+    animation-delay: 0.2s;
+}
+.ooc {
+    animation-delay: 0.4s;
+}
+.oox {
+    animation-delay: 0.6s;
+}
+.oow {
+    animation-delay: 0.8s;
+}
+.ooq {
+    animation-delay: 0.9s;
+}
+.oos {
+    animation-delay: 0.99s;
+}
+
+

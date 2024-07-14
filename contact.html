@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fitness gym</title>
+   
+      <link rel="stylesheet" href="css/contact-styles.css">
+     
+
+</head>
+<body>
+    <header>
+        <h1>FITNESS GYM</h1>
+        <ul>
+            <ul class="">
+                <a href="index.html"><li>HOME</li></a> 
+                <a href="service.html"> <li> SERVICE  </li></a>
+                <a href="schedule.html"><li>SCHEDULE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+                <a href="calculator.html"> <li> CALCULATOR</li></a>
+            </ul>
+      
+        </ul>
+    </header>
+
+    <center><h2>Contact Us</h2></center>
+    <form class="contact-form">
+        <div class="row">
+            <div class="col-md-6">
+                <input type="text" placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="Your email">
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+                <button class="site-btn">Send</button>
+            </div>
+        </div>
+    </form>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var form = document.querySelector('.contact-form');
+    
+            form.addEventListener('submit', function (event) {
+                var nameInput = form.querySelector('input[placeholder="Your name"]');
+                var emailInput = form.querySelector('input[placeholder="Your email"]');
+                var subjectInput = form.querySelector('input[placeholder="Subject"]');
+                var messageInput = form.querySelector('textarea[placeholder="Message"]');
+    
+                if (!nameInput.value || !emailInput.value || !subjectInput.value || !messageInput.value) {
+                    alert('Veuillez remplir tous les champs du formulaire.');
+                    event.preventDefault(); // Empêche l'envoi du formulaire si des champs sont vides
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
